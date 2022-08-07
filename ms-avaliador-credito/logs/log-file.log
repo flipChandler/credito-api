@@ -1,0 +1,33 @@
+2022-08-07 12:50:10.863  INFO 20421 --- [main] b.c.f.m.MsAvaliadorCreditoApplication    : Starting MsAvaliadorCreditoApplication using Java 11.0.13 on felipe-Vostro-3501 with PID 20421 (/home/felipe/Documents/cursos/douglas-santos/domine-microservices-mensageria-docker/ms-avaliador-credito/target/classes started by felipe in /home/felipe/Documents/cursos/douglas-santos/domine-microservices-mensageria-docker/ms-avaliador-credito)
+2022-08-07 12:50:10.866  INFO 20421 --- [main] b.c.f.m.MsAvaliadorCreditoApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 12:50:11.782  INFO 20421 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef72e95c-a5c9-3ca9-ba13-e8ab720712ba
+2022-08-07 12:50:12.224  INFO 20421 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-07 12:50:12.242  INFO 20421 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 12:50:12.243  INFO 20421 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-08-07 12:50:12.435  INFO 20421 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 12:50:12.436  INFO 20421 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1509 ms
+2022-08-07 12:50:12.836  INFO 20421 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'ms-cliente' URL not provided. Will try picking an instance via load-balancing.
+2022-08-07 12:50:12.979  INFO 20421 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'ms-cartao' URL not provided. Will try picking an instance via load-balancing.
+2022-08-07 12:50:14.158  INFO 20421 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-07 12:50:14.647  WARN 20421 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-07 12:50:14.684  INFO 20421 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 42437 (http) with context path ''
+2022-08-07 12:50:14.685  INFO 20421 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 42437
+2022-08-07 12:50:14.691  INFO 20421 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-07 12:50:14.806  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-07 12:50:14.815  INFO 20421 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-07 12:50:14.842  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-07 12:50:14.843  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-07 12:50:14.843  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-07 12:50:14.843  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-07 12:50:14.843  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-07 12:50:14.843  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-07 12:50:14.843  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-07 12:50:15.228  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-07 12:50:15.231  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-07 12:50:15.234  INFO 20421 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-07 12:50:15.240  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659887415239 with initial instances count: 1
+2022-08-07 12:50:15.242  INFO 20421 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-AVALIADOR-CREDITO with eureka with status UP
+2022-08-07 12:50:15.243  INFO 20421 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659887415243, current=UP, previous=STARTING]
+2022-08-07 12:50:15.245  INFO 20421 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-AVALIADOR-CREDITO/ms-avaliador-credito:b9293cd4a6de9090ae2b11c9dd71ebc4: registering service...
+2022-08-07 12:50:15.373  INFO 20421 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-AVALIADOR-CREDITO/ms-avaliador-credito:b9293cd4a6de9090ae2b11c9dd71ebc4 - registration status: 204
+2022-08-07 12:50:15.720  INFO 20421 --- [main] b.c.f.m.MsAvaliadorCreditoApplication    : Started MsAvaliadorCreditoApplication in 6.293 seconds (JVM running for 6.857)
